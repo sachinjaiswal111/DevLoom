@@ -10,7 +10,7 @@ const Signup = () => {
                 <form className="space-y-4">
                     <div>
                         <label className="block text-sm font-medium mb-1">
-                            Email
+                            Email Address
                         </label>
                         <input
                             type="email"
