@@ -15,7 +15,7 @@ const Signup = () => {
                         <input
                             type="email"
                             className="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                            placeholder="Enter email"
+                            placeholder="Enter your email"
                         />
                     </div>
                     <div>
@@ -25,7 +25,7 @@ const Signup = () => {
                         <input
                             type="password"
                             className="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                            placeholder="Enter your password"
+                            placeholder="Enter password"
                         />
                     </div>
                     <div>
@@ -35,7 +35,7 @@ const Signup = () => {
                         <input
                             type="password"
                             className="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                            placeholder="Confirm your password"
+                            placeholder="Confirm password"
                         />
                     </div>
                     <button
