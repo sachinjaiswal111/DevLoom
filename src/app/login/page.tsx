@@ -1,6 +1,5 @@
 
-// i have to remove it
-
+//  TODO: Remove console log after integrating backend authentication
 import React, { useState } from "react";
 
 const Login = () => {
@@ -9,6 +8,7 @@ const Login = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    // Temporary log for debugging user input
     console.log({ email, password });
   };
 
@@ -16,6 +16,9 @@ const Login = () => {
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-md">
         <h2 className="text-2xl font-bold text-center mb-6">Login</h2>
+        <p className="text-center text-gray-500 mb-4">
+          Enter your credentials to access your account
+        </p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
           
