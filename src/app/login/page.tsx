@@ -1,5 +1,6 @@
 
 //  TODO: Remove console log after integrating backend authentication
+"use client";
 import React, { useState } from "react";
 
 const Login = () => {
